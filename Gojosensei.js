@@ -3443,8 +3443,8 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 ││✑「مـن مـمـلـكـة غولد 🤗」◣
 │└───────────────┈ ⳹
  「 مـعـلـومـات عـن الـبـوت 」
-│✙「 اسـم الـبـوت 」◣ : 「 غوجو ✨🤞🏻 」◣
-│✙「 رقـم الـمـالـك 」◣ : ${global.owner}
+│✙「 اسـم الـبـوت 」◣ : 「 ترين ✨🤞🏻 」◣
+│✙「 رقـم الـمـالـك 」◣ : ${31624789483.owner}
 │✙「عـدد الـمـسـتـخـدمـيـن」◣ : ${Object.keys(global.db.data.users).length}
 └┬──────────────┈ ⳹
    │✑  「 اضـغـط عـلـى الـخـيـارات 🤗 」◣
@@ -3452,12 +3452,12 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: '「 قناتي 」「📍」◣',
-                                    url: `${myweb}`
+                                    url: `${}`
                                 }
                             }, {
                             	urlButton: {
                                 displayText: '「 رابط الاستقبال 」「📌」◣',
-                                    url: `${sc}`
+                                    url: `${https://chat.whatsapp.com/DRyZ43leECQFkYTu3iyJ3u}`
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3472,7 +3472,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                                 }, {
                                 quickReplyButton: {
                                     displayText: '「 المالك 」「👤」◣',
-                                    id: `${prefix}owner`
+                                    id: `${ترين}owner`
                                 }
                             }]
                         }
@@ -3485,15 +3485,14 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                 listMessage :{
                     title: `「 مرحبا 👋🏻  」◣
-		    「 معك بوت غوجو 🤗 」◣
+		    「 معك بوت ترين🤗 」◣
 		    「 افضل بوت عربي 」◣
 
- 「 رابط شرح كيف تصنع بوت عربي طريقة سهله راقب وتعلم. ولاتنسى الاشتراك بالقناة」◣
-		    「https://youtu.be/MBPIx3f-VIA」◣
-		    「 اتمنى ان تعملو اشتراك للقناة وتنشروها اذا تقدرو عشان ينتشر المقطع كمان والكل يستفيد وجزاه الله خير الي يشترك 💖🤗」◣                 
- 「 رابط فرع التعليم على البوت」◣
-		    「https://chat.whatsapp.com/Gb62eN2S5yI9mhfdn6Ma4z」◣
-		    「 الي محتاج شروحات ينضم 」◣`,
+ة」◣
+		    「」◣
+		    「     」◣                 
+ 「  		    「https://chat.whatsapp.com/DRyZ43leECQFkYTu3iyJ3u」◣
+		    「  」◣`,
                     description: `「 اختر قائمة من فضلك 」◣`,
                     buttonText: "「 القائمة 」◣",
                     footerText: `「 تحت الصيانة ⚙️」◣`,
@@ -3616,18 +3615,18 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
             }
             break
     case 'donasi': case 'donate': case 'sewabot': case 'sewa': {
-                GojoMdNx.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c15f725add0381fb69c4b.jpg' }, caption: `` }, { quoted: m })
+                GojoMdNx.sendMessage(m.chat, { image: { url: 'https://i.ibb.co/6YCfZV7/IMG-20220701-WA0039.jpg;https://chat.whatsapp.com/BSOfsSGjwzs0bXMPsOKQoz' }, caption: `` }, { quoted: m })
             }
-            break
+        :    break
             case 'التسجhgjيل': case 'التسجيل': {
-                reply(`「 الفرع الخاص ل التعليم على البوت 」◣
+                reply(نقابة كورنوس  」◣
 
-「 _https://chat.whatsapp.com/CKLmAGJo3iw5AvNM1KZee3_ 」◣
+「 _https://chat.whatsapp.com/DRyZ43leECQFkYTu3iyJ3u 」◣
 
 「 نرحب بالجميع. 」◣`)
             }
             break
-case '9807786789678': {
+case '31624789483': {
   	anu = `
 ┏━「 *${botname}* 」━━⭓ 
 ┃╔══☯︎「 MAIN 」☯︎
