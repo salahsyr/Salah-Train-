@@ -146,7 +146,7 @@ Tol = await getBuffer(`https://hardianto.xyz/api/goodbye3?profile=${encodeURICom
                 if (anu.action == 'add') {
                     GojoMdNx.sendMessage(anu.id, { image: Kon, contextInfo: { mentionedJid: [num] }, caption: `
 ⭐✑ هلا👋 @${num.split("@")[0]},
-⭐✑ نورت جروبنا ${metadata.subject}
+⭐✑ نورت نقابة كورنوس ${metadata.subject}
 
 ⭐✑ الوصف : ${metadata.desc}
 
